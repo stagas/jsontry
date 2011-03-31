@@ -1,0 +1,17 @@
+{
+  "name": "jsontry",
+  "description": "JSON.parse() in a try",
+  "version": "0.0.1",
+  "author": "George Stagas <gstagas@gmail.com>",
+  "engines": {
+    "node": ">=0.0.1"
+  },
+  "main": "./jsontry",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stagas/jsontry"
+  },
+  "bugs": {
+    "web": "https://github.com/stagas/jsontry/issues"
+  }
+}

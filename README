@@ -1,0 +1,36 @@
+JSON.parse() in a try:
+----------------------
+
+exports.parse = function(s) {
+  var o
+  try {
+    o = JSON.parse(s)
+  } catch(e) {
+    o = s
+  }
+  return o
+}
+
+
+installation:
+-------------
+
+npm install jsontry
+
+
+usage:
+-----
+
+var json = require('jsontry')
+
+console.log(json.parse(JSON.stringify({ a: 'json', object: true })))
+console.log(json.parse('plain text'))
+console.log({ an: 'object' })
+
+
+output:
+-------
+
+{ a: 'json', object: true }
+plain text
+{ an: 'object' }
